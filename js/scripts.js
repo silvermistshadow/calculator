@@ -37,6 +37,7 @@ $(document).ready(function() {
     }
     else {
       console.log("FLAGRANT SYSTEM ERROR" + " " + "The system is down. I dunno what you did, moron, but you sure screwed everything up good.")
+      //note for any future employers looking at this: No, I won't put joke error messages like this in anything I do for you unless you ask me to. 
     }
     $("#output").text(result);
   });
